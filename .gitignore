@@ -10,7 +10,12 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+*.env
 *.local
+package.json
+package-lock.json
+yarn.lock
+vite.config.js
 
 # Editor directories and files
 .vscode/*
@@ -22,6 +27,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Prettier
+.prettierrc
+.prettierignore
+
 ### Intellij template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
